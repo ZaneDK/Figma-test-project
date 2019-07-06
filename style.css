@@ -1,0 +1,20 @@
+:root {
+    --background_color_one: #fff
+    --background_color_two: #F2F4F6;
+}
+
+html,body {
+    height:
+}
+body {
+    magin:0;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
+background-color: var(--background_color_one);
+min-height: 10rem;
+
+}
