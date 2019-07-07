@@ -4,6 +4,8 @@
     --border_color: #D6E3F0;
     --highlight_color: #38A4DC;
     --text_color_one: #5C6163;
+    --text_color_two:#24282A;
+    --text_color_three: #939FA4;
 }
 
 html,body {
@@ -61,3 +63,79 @@ a {
 .popular_destinations div {
     color:var(--text_color_one);
     }
+.header {
+    height:6.25rem;
+}
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.logo {
+    font-size:1.5rem;
+    font-weight:300;
+    color:var(--text_color_three);
+}
+.logo span  {
+    font-weight:700;
+    color:var(--text_color_two);
+}
+.page_menu a {
+    color: var(--text_color_one);
+    font-weight:500;
+    font-size:0.875;
+    padding:0.625rem;
+    margin:0.9375rem;
+}
+.page_menu a.active, .page_menu a:hover {
+    background: var(--highlight_color);
+    color: var(--background_color_one);
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.phone_number {
+font-size:0.875rem;
+font-weight:500;
+color: var(--highlight_color);
+line-height:1.5rem;
+display:flex;
+align-content: center;
+
+}
+
+.phone_number span {
+margin-left: 0.5rem;
+}
+
+.hero_header {
+    height: 43.75rem;
+    background-image: url("images/HeroImage.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.hero_header_inner {
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.subheadline {
+    color:var(--background_color_one);
+    font-size: 1.25rem;
+    margin-bottom:3.75rem;
+
+}
+
+a.button {
+    background: linear-gradient(198.4deg, #FDD6BD 0%, #F794A4 100%);
+box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+color: var(--background_color_one);
+padding: 0 2.5rem;
+line-height: 3.75rem;
+display:inline-block;
+
+}
