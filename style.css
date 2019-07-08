@@ -43,6 +43,27 @@ a {
     height: inherit;
 }
 
+.inner_padding {
+    padding: 6.875rem 0;
+
+}
+
+.inner h1{
+    font-size:3rem;
+    text-align: center;
+    margin: 0 0 5.65rem 0;
+    font-weight: 300;
+    color: var(--text_color_three);
+
+}
+
+.inner h1 strong {
+    color:var(--text_color_two);
+    font-weight: 700;
+
+
+}
+
 .top_header {
     background-color: var(--background_color_two);
     min-height:3.125rem;
@@ -138,4 +159,8 @@ padding: 0 2.5rem;
 line-height: 3.75rem;
 display:inline-block;
 
+}
+
+.tours {
+    min-height:20rem;
 }
