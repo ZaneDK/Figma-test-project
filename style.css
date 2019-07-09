@@ -6,6 +6,7 @@
     --text_color_one: #5C6163;
     --text_color_two:#24282A;
     --text_color_three: #939FA4;
+    --text_color_four: #A7B0B4;
 }
 
 html,body {
@@ -43,6 +44,8 @@ a {
     height: inherit;
 }
 
+
+
 .inner_padding {
     padding: 6.875rem 0;
 
@@ -56,6 +59,11 @@ a {
     color: var(--text_color_three);
 
 }
+.best_offers .inner h1 {
+    text-align:left;
+    margin: 0 0 5rem 0;
+}
+
 
 .inner h1 strong {
     color:var(--text_color_two);
@@ -161,9 +169,8 @@ display:inline-block;
 
 }
 
-.tours {
-    min-height:20rem;
-}
+
+
 .tour_categories {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
@@ -206,4 +213,45 @@ display: inline-block;
 font-size: 1.25rem;
 font-weight: 700;
 color: var(--background_color_one);
+}
+
+.best_offers {
+    min-height: 20rem;
+    background-color: var(--background_color_two);
+}
+
+.best_offers_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.best_offer_row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 1.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    align-items: center;
+    font-size: 0.875rem;
+    color: var(--text_color_four);
+}
+.best_offer_row strong {
+    color: var(--text_color_two);
+    font-size: 1rem;
+}
+
+.best_offer_row img {
+    margin-left: -2.5rem;
+
+}
+
+.best_offer_row:nth-child(even){
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background-color: var(--background_color_one);
+}
+
+.best_offer_row:nth-child(even) img{
+    box-shadow: 0px 20px 40px rgba(0, 0, 0,0.3);
 }
