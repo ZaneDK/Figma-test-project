@@ -1,0 +1,23 @@
+{
+  "name": "figma-test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZaneDK/Figma-test-project.git"
+  },
+  "author": "ZaneDK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZaneDK/Figma-test-project/issues"
+  },
+  "homepage": "https://github.com/ZaneDK/Figma-test-project#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
